@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{E3110C80-9838-4B89-B669-AD181D6EBD77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9B493F67-E5CA-4189-8DA1-608792494A1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeProject.API", "EmployeeProject.API\EmployeeProject.API.csproj", "{AC187748-CAB4-43EB-9EA9-16CF702ACD39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8B2D6555-3DEB-4174-A63B-329A8984250A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeProject.Application.Service", "EmployeeProject.Application.Service\EmployeeProject.Application.Service.csproj", "{B28AB840-817C-4CEF-AFFC-68C9AB33516C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{47847326-7B7E-4A1D-8DAC-2F298F6C5F0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeProject.Infrastructure.ExcelRepository", "EmployeeProject.Infrastructure.ExcelRepository\EmployeeProject.Infrastructure.ExcelRepository.csproj", "{AA62B91D-848D-4A87-8B64-519F84238CC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeProject.Domain.Repository", "EmployeeProject.Domain.Repository\EmployeeProject.Domain.Repository.csproj", "{F0258DF1-E59F-4B12-A7D9-D6C65AD5CE6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeProject.Domain.Entity", "EmployeeProject.Domain.Entity\EmployeeProject.Domain.Entity.csproj", "{03B19586-F67B-4245-8FBE-4D469D165A60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{B47AB4F0-396B-48A5-9EB4-8DDDB1EA7BE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeProject.Application.ExcelReader", "EmployeeProject.Application.ExcelReader\EmployeeProject.Application.ExcelReader.csproj", "{8C1FE9EF-1DAD-4A6C-BAAB-672619B37F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeProject.UnitTest", "EmployeeProject.UnitTest\EmployeeProject.UnitTest.csproj", "{23659A74-8E3F-4754-B670-F1F66120571D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC187748-CAB4-43EB-9EA9-16CF702ACD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC187748-CAB4-43EB-9EA9-16CF702ACD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC187748-CAB4-43EB-9EA9-16CF702ACD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC187748-CAB4-43EB-9EA9-16CF702ACD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28AB840-817C-4CEF-AFFC-68C9AB33516C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28AB840-817C-4CEF-AFFC-68C9AB33516C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28AB840-817C-4CEF-AFFC-68C9AB33516C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28AB840-817C-4CEF-AFFC-68C9AB33516C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA62B91D-848D-4A87-8B64-519F84238CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA62B91D-848D-4A87-8B64-519F84238CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA62B91D-848D-4A87-8B64-519F84238CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA62B91D-848D-4A87-8B64-519F84238CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0258DF1-E59F-4B12-A7D9-D6C65AD5CE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0258DF1-E59F-4B12-A7D9-D6C65AD5CE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0258DF1-E59F-4B12-A7D9-D6C65AD5CE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0258DF1-E59F-4B12-A7D9-D6C65AD5CE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B19586-F67B-4245-8FBE-4D469D165A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B19586-F67B-4245-8FBE-4D469D165A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B19586-F67B-4245-8FBE-4D469D165A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B19586-F67B-4245-8FBE-4D469D165A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1FE9EF-1DAD-4A6C-BAAB-672619B37F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1FE9EF-1DAD-4A6C-BAAB-672619B37F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1FE9EF-1DAD-4A6C-BAAB-672619B37F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1FE9EF-1DAD-4A6C-BAAB-672619B37F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23659A74-8E3F-4754-B670-F1F66120571D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23659A74-8E3F-4754-B670-F1F66120571D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23659A74-8E3F-4754-B670-F1F66120571D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23659A74-8E3F-4754-B670-F1F66120571D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC187748-CAB4-43EB-9EA9-16CF702ACD39} = {E3110C80-9838-4B89-B669-AD181D6EBD77}
+		{B28AB840-817C-4CEF-AFFC-68C9AB33516C} = {8B2D6555-3DEB-4174-A63B-329A8984250A}
+		{AA62B91D-848D-4A87-8B64-519F84238CC6} = {47847326-7B7E-4A1D-8DAC-2F298F6C5F0F}
+		{F0258DF1-E59F-4B12-A7D9-D6C65AD5CE6E} = {9B493F67-E5CA-4189-8DA1-608792494A1C}
+		{03B19586-F67B-4245-8FBE-4D469D165A60} = {9B493F67-E5CA-4189-8DA1-608792494A1C}
+		{8C1FE9EF-1DAD-4A6C-BAAB-672619B37F78} = {8B2D6555-3DEB-4174-A63B-329A8984250A}
+		{23659A74-8E3F-4754-B670-F1F66120571D} = {B47AB4F0-396B-48A5-9EB4-8DDDB1EA7BE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43A1AA6D-70C0-4A24-A3D9-0739252C8FCF}
+	EndGlobalSection
+EndGlobal
